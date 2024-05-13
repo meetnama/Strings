@@ -10,8 +10,8 @@ phrase:
         update_translations: true #Indicates whether existing translations should be updated with the file content.
   pull:
     targets:
-    - file: ./111.json
+    - file: ./ar.json
       params:
         file_format: simple_json
-        locale_id: English #Can be the name (e.g. en-US) or public id (via Language settings -> API) of the locale. Preferred is the public id.
+        locale_id: ar #Can be the name (e.g. en-US) or public id (via Language settings -> API) of the locale. Preferred is the public id.
         include_empty_translations: true #Indicates whether keys without translations should be included in the output as well.
