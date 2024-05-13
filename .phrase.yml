@@ -3,7 +3,7 @@ phrase:
   project_id: ea917e939d025669b071fe428f584a19
   push:
     sources:
-    - file: ./111.json
+    - file: ./en.json
       params:
         file_format: simple_json
         locale_id: English #Can be the name (e.g. en-US) or public id (via Language settings -> API) of the locale. Preferred is the public id.
