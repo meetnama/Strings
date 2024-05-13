@@ -1,0 +1,27 @@
+phrase:
+  access_token: d3e9d27e75debd27a563f715d5a1d98644
+  project_id: 32b61ddb971dc55f15a10417384bb51f
+  push:
+    sources:
+    - file: ./111.json
+      params:
+        file_format: simple_json
+        locale_id: English #Can be the name (e.g. en-US) or public id (via Language settings -> API) of the locale. Preferred is the public id.
+        update_translations: true #Indicates whether existing translations should be updated with the file content.
+    - file: ./222.json
+      params:
+        file_format: simple_json
+        locale_id: ar #Can be the name (e.g. en-US) or public id (via Language settings -> API) of the locale. Preferred is the public id.
+        update_translations: true #Indicates whether existing translations should be updated with the file content.
+  pull:
+    targets:
+    - file: ./111.json
+      params:
+        file_format: simple_json
+        locale_id: English #Can be the name (e.g. en-US) or public id (via Language settings -> API) of the locale. Preferred is the public id.
+        include_empty_translations: true #Indicates whether keys without translations should be included in the output as well.
+    - file: ./222.json
+      params:
+        file_format: simple_json
+        locale_id: ar #Can be the name (e.g. en-US) or public id (via Language settings -> API) of the locale. Preferred is the public id.
+#        include_empty_translations: true #Indicates whether keys without translations should be included in the output as well.
